@@ -1,0 +1,16 @@
+name: quatisCPSLimiter
+version: 1.0
+main: me.quatis.cpslimiter.CPSLimiterPlugin
+description: CPS limiter
+author: quatis 
+commands:
+  cpsreload:
+    description: Config dosyasini yeniler
+    permission: cpslimiter.admin
+permissions:
+  cpslimiter.bypass:
+    description: CPS limitine takilmaz
+    default: op
+  cpslimiter.admin:
+    description: Admin komutlarina erisim
+    default: op

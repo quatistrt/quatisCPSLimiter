@@ -1,0 +1,35 @@
+# CPS Limiter Config
+# Eklenti ayarlarini buradan yapabilirsiniz.
+
+# ---------- CPS AYARLARI ----------
+
+# Izin verilen maksimum saniye basina tiklama (CPS) sayisi (Sol Tik).
+cps-limit: 15
+
+# Izin verilen maksimum saniye basina sag tiklama (Right CPS) sayisi.
+right-cps-limit: 15
+
+# ---------- CEZA VE BEKLEME ----------
+
+# CPS limitini asinca uygulanacak bekleme suresi (saniye cinsinden).
+cooldown-seconds: 3
+
+# Bekleme suresinde tiklamaya calisinca gonderilecek mesaj.
+# %time% degiskeni kalan sureyi gosterir.
+cooldown-message: "&c&lHATA! &7Lutfen tiklamadan once %time% saniye bekleyin."
+
+# CPS limitini asan oyuncuya gonderilecek uyari mesaji.
+# Renk kodlari kullanilabilir (&).
+alert-message: "&c&lUYARI! &7CPS limitini asiyorsunuz! Lutfen yavaslayin."
+
+# ---------- DIGER AYARLAR ----------
+
+# Oyuncuya uyari gonderilsin mi? (true/false)
+enable-alert: true
+
+# CPS asildiginda vurus iptal edilsin mi? (true/false)
+cancel-hit: true
+
+# Vurus yapildiginda anlik CPS miktarini chate yaz (Debug mod).
+# Test amaclidir, sunucuyu acarken kapatmaniz onerilir.
+debug-cps: true
